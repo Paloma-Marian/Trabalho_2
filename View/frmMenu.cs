@@ -24,6 +24,7 @@ namespace Trabalho2.View
         private void frmMenu_Load(object sender, EventArgs e)
         {
             PreencheTabela();
+            tbPalavraChave.MaxLength = 9;
         }
 
         private void btnSair_Click(object sender, EventArgs e)
