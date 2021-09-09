@@ -125,7 +125,7 @@ namespace Trabalho2.Model
                     letrasSemRepetir += palavraChave[i];
                     if (palavraChave[i] == 'A' || palavraChave[i] == 'D')
                     {
-                        if (VerificaSequencia(palavraChave[i - 1], 1))
+                        if (ConfereLetraAoRedor(palavraChave[i - 1], 1))
                         {
                             pontos++;
                         }
@@ -136,7 +136,7 @@ namespace Trabalho2.Model
                     }
                     else if (palavraChave[i] == 'E' || palavraChave[i] == 'F')
                     {
-                        if (VerificaSequencia(palavraChave[i - 1], 2))
+                        if (ConfereLetraAoRedor(palavraChave[i - 1], 2))
                         {
                             pontos++;
                         }
@@ -147,7 +147,7 @@ namespace Trabalho2.Model
                     }
                     else if (palavraChave[i] == 'B' || palavraChave[i] == 'C')
                     {
-                        if (VerificaSequencia(palavraChave[i - 1], 3))
+                        if (ConfereLetraAoRedor(palavraChave[i - 1], 3))
                         {
                             pontos++;
                         }
@@ -158,7 +158,7 @@ namespace Trabalho2.Model
                     }
                     else if (palavraChave[i] == 'G' || palavraChave[i] == 'I' || palavraChave[i] == 'U')
                     {
-                        if (VerificaSequencia(palavraChave[i - 1], 4))
+                        if (ConfereLetraAoRedor(palavraChave[i - 1], 4))
                         {
                             pontos++;
                         }
@@ -169,7 +169,7 @@ namespace Trabalho2.Model
                     }
                     else if (palavraChave[i] == 'H' || palavraChave[i] == 'J' || palavraChave[i] == 'V')
                     {
-                        if (VerificaSequencia(palavraChave[i - 1], 5))
+                        if (ConfereLetraAoRedor(palavraChave[i - 1], 5))
                         {
                             pontos++;
                         }
@@ -180,7 +180,7 @@ namespace Trabalho2.Model
                     }
                     else if (palavraChave[i] == 'K' || palavraChave[i] == 'L')
                     {
-                        if (VerificaSequencia(palavraChave[i - 1], 6))
+                        if (ConfereLetraAoRedor(palavraChave[i - 1], 6))
                         {
                             pontos++;
                         }
@@ -191,7 +191,7 @@ namespace Trabalho2.Model
                     }
                     else if (palavraChave[i] == 'M' || palavraChave[i] == 'O' || palavraChave[i] == 'Q')
                     {
-                        if (VerificaSequencia(palavraChave[i - 1], 7))
+                        if (ConfereLetraAoRedor(palavraChave[i - 1], 7))
                         {
                             pontos++;
                         }
@@ -202,7 +202,7 @@ namespace Trabalho2.Model
                     }
                     else if (palavraChave[i] == 'N' || palavraChave[i] == 'T' || palavraChave[i] == 'P')
                     {
-                        if (VerificaSequencia(palavraChave[i - 1], 8))
+                        if (ConfereLetraAoRedor(palavraChave[i - 1], 8))
                         {
                             pontos++;
                         }
@@ -213,7 +213,7 @@ namespace Trabalho2.Model
                     }
                     else if (palavraChave[i] == 'R' || palavraChave[i] == 'S' || palavraChave[i] == 'Z')
                     {
-                        if (VerificaSequencia(palavraChave[i - 1], 9))
+                        if (ConfereLetraAoRedor(palavraChave[i - 1], 9))
                         {
                             pontos++;
                         }
@@ -270,12 +270,12 @@ namespace Trabalho2.Model
         }
 
         /// <summary>
-        /// verifica qual sequencia está sendo verificada no momento
+        /// verifica se a letra anterior está ao redor da letra atual
         /// </summary>
         /// <param name="letra"></param>
         /// <param name="posicao"></param>
         /// <returns></returns>
-        public static bool VerificaSequencia(char letra, int posicao)
+        public static bool ConfereLetraAoRedor(char letra, int posicao)
         {
             string slot = LetrasAoRedor(posicao);
 
