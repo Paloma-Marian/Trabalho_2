@@ -101,7 +101,7 @@ namespace Trabalho2.Model
         }
 
         /// <summary>
-        /// Retorna os pontos da rodada atual e verifica as letras
+        /// Retorna os pontos da rodada atual e verifica as letras.
         /// </summary>
         /// <param name="palavraChave"></param>
         /// <returns></returns>
