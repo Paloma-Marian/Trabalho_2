@@ -270,7 +270,7 @@ namespace Trabalho2.Model
         }
 
         /// <summary>
-        /// verifica se a letra anterior está ao redor da letra atual
+        /// Verifica se a letra anterior está ao redor da letra atual
         /// </summary>
         /// <param name="letra"></param>
         /// <param name="posicao"></param>

@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\paloma.marian\\Documents\\GitHub\\Trabalho_2\\Trabalho2.csproj": {}
+    "C:\\Users\\sara.machado\\Documents\\GitHub\\Trabalho_2\\Trabalho2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\paloma.marian\\Documents\\GitHub\\Trabalho_2\\Trabalho2.csproj": {
+    "C:\\Users\\sara.machado\\Documents\\GitHub\\Trabalho_2\\Trabalho2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\paloma.marian\\Documents\\GitHub\\Trabalho_2\\Trabalho2.csproj",
+        "projectUniqueName": "C:\\Users\\sara.machado\\Documents\\GitHub\\Trabalho_2\\Trabalho2.csproj",
         "projectName": "Trabalho2",
-        "projectPath": "C:\\Users\\paloma.marian\\Documents\\GitHub\\Trabalho_2\\Trabalho2.csproj",
-        "packagesPath": "C:\\Users\\paloma.marian\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\paloma.marian\\Documents\\GitHub\\Trabalho_2\\obj\\",
+        "projectPath": "C:\\Users\\sara.machado\\Documents\\GitHub\\Trabalho_2\\Trabalho2.csproj",
+        "packagesPath": "C:\\Users\\sara.machado\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sara.machado\\Documents\\GitHub\\Trabalho_2\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\paloma.marian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\sara.machado\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -61,7 +61,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }
