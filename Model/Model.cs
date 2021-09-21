@@ -240,12 +240,12 @@ namespace Trabalho2.Model
         /// <returns></returns>
         public static bool LetraEstaNoCacaPalavraERepete(string palavraChave, int indice, string letraSemRepetir)
         {
-            //verifica se a letra esta na tabala
+            //Verifica se a letra esta na tabela
             foreach (var item in Tabela)
             {
                 if (palavraChave[indice] == Convert.ToChar(item))
                 {
-                    //verifica se a letra esta repetida
+                    //Verifica se a letra esta repetida
                     foreach (var item2 in letraSemRepetir)
                     {
                         if(palavraChave[indice] == item2)
